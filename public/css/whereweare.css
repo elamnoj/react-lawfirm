@@ -1,0 +1,82 @@
+.back{
+    width: 100%;
+}
+.btn-secondary{
+    color:white;
+    background-color: lightgrey;
+    border: none;
+    margin-right: 70px;
+}
+.serif{
+    font-family: serif;
+    
+}
+h2.b {line-height: 150%}
+h2.a {line-height: 0%}
+
+hr.spacer{
+    border-top: 2px solid black;
+    padding: 0px 0px;
+    margin: 10px;
+}
+li.left{
+  border-left:solid lightgrey;
+  padding-left: 15px;
+}
+ul.f1{
+    margin: 10px 5px 5px 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+body{
+    background: 
+        url("../images/nza_background.jpg");
+}
+
+h4{
+    font-weight: 300;
+    font-size:16px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+h5{
+    font-weight: 100;
+    font-size:18px;;
+}
+
+.col-md-8{
+    background-color: white;
+    height:100%;
+}
+
+.page {
+    width: 90%;
+    height:100%;
+    background-color: white;
+}
+
+main {
+    margin-top: 30px;
+}
+
+.where{
+    background:url("../images/nav_side_sub.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px;
+    color: white;
+    font-weight: 100;
+    margin-left: 10px;
+}
+
+hr.white {
+     display: block; height: 1px;
+    border: 0; border-top: 3px solid white;
+    margin: 1em 0; padding: 0; 
+}
+
+footer{
+    margin-top:50px;
+}

@@ -1,38 +1,187 @@
-.App {
-  text-align: center;
+body{
+    background: 
+        url("./images/nza_background.jpg");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+header {
+    margin-bottom: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.back{
+    width: 100%;
+}
+.btn-secondary{
+    color:white;
+    background-color: lightgrey;
+    border: none;
+    margin-right: 70px;
+}
+.serif{
+    font-family: serif;
+    color: black;
+    
+}
+h2.b {line-height: 150%}
+h2.a {line-height: 0%}
+
+hr.spacer{
+    border-top: 2px solid black;
+    padding: 0px 0px;
+    margin: 10px;
+}
+li.left{
+  border-left:solid lightgrey;
+  padding-left: 15px;
+}
+ul.f1{
+    margin: 10px 5px 5px 10px;
+    font-size: 14px;
+    text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.col-md-8{
+    background-color: white;
+    height:100%;
 }
 
-.App-link {
-  color: #61dafb;
+.page {
+    width: 90%;
+    height:100%;
+    background-color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#login{
+  float: right;
+}
+
+#woods {
+    height:auto;
+    object-fit: contain;
+}
+
+.list-inline-item {
+  color: black;
+}
+
+#woods img{
+    object-fit: contain;
+}
+
+#u{
+    color:black
+}
+
+#scroll {
+    max-height: 360px;
+    height:auto;
+    background:url("./images/nav_side_sub.jpg");
+    overflow: scroll;
+    overflow-x:hidden;
+    width: 100%;
+}
+
+.vertical-scrollable {
+    color: white;
+    font-weight: 100;
+}
+
+hr.white {
+     display: block; height: 1px;
+    border: 0; border-top: 1px solid #ccc;
+    margin: 1em 0; padding: 0; 
+}
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+footer{
+    margin-top: 50px;
+}
+
+.back{
+    width: 100%;
+}
+.btn-secondary{
+    color:white;
+    background-color: lightgrey;
+    border: none;
+    margin-right: 70px;
+}
+.serif{
+    font-family: serif;
+    
+}
+h2.b {line-height: 150%}
+h2.a {line-height: 0%}
+
+hr.spacer{
+    border-top: 2px solid black;
+    padding: 0px 0px;
+    margin: 10px;
+}
+li.left{
+  border-left:solid lightgrey;
+  padding-left: 15px;
+}
+ul.f1{
+    margin: 10px 5px 5px 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+body{
+    background:url("./images/nza_background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.col-md-8{
+    background-color: white;
+    height:100%;
+    background-size: cover;
+}
+
+.page {
+    width: 90%;
+    height:100%;
+    background-color: white;
+}
+
+main{
+    margin-top: 30px;
+}
+
+h4{
+    font-weight: 100;
+}
+
+#contact{
+    padding: 20px;
+    background-image:url("./images/nav_side_sub.jpg");
+    color:white;
+    font-weight: 100;
+    background-size: cover;
+    margin-left: 10px;
+}
+hr.white {
+     display: block; height: 1px;
+    border: 0; border-top: 3px solid white;
+    margin: 1em 0; padding: 0; 
+}
+
+.where {
+    height:425px;
+    background-image:url("./images/other_links_background.jpg");
+    padding: 20px;
+    background-size: cover;
+    margin-right: 10px;
+}
+
+#slideshow{
+    background-image: url("./images/nza_slideshow.jpg");
+    
 }
